@@ -1,9 +1,8 @@
 void main() {
-  dynamic name; //dynamic은 어떤 타입으로든 지정할 수 있다.(꼭 필요할떄만 쓰자)
-  if(name is String){
-    name.기능
+  String? sunwoo = 'nico'; //?를 넣으면 null일 수도 있고 아닐 수도 있다는걸 알려준다.
+  sunwoo = null;
+  if (sunwoo != null) {
+    sunwoo.isNotEmpty;
   }
-  if(name is int){
-    name.기능
-  }
+  //nico?.isNotEmpty로 위에껄 줄일 수 있다.
 }
