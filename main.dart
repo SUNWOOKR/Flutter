@@ -1,3 +1,4 @@
 void main() {
-  print('hello world'); //세미콜론이 있는 것과 없는것을 구분하자
+  var name = '선우'; //var은 나중에 변환할 수 있지만 변수의 타입이 같아야함
+  name = 'nico'; //위에 var은 String으로도 쓸 수 있다.
 }
