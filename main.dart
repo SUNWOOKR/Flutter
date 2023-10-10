@@ -1,4 +1,9 @@
 void main() {
-  var name = '선우'; //var은 나중에 변환할 수 있지만 변수의 타입이 같아야함
-  name = 'nico'; //위에 var은 String으로도 쓸 수 있다.
+  dynamic name; //dynamic은 어떤 타입으로든 지정할 수 있다.(꼭 필요할떄만 쓰자)
+  if(name is String){
+    name.기능
+  }
+  if(name is int){
+    name.기능
+  }
 }
