@@ -1,6 +1,5 @@
 void main() {
   //late var or late final or late String등을 써야한다.
-
   //const name = 'nico';  //const도 fianl과 같다
   //const는 앱을 컴파일하고 앱스토어에 올릴 때 그 값을 알고 있다면 const사용
 
